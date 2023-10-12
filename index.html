@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <script src="REVISED main.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div id="display">
+    <label id="output">0</label>
+</div>
+
+<div id="container">
+
+    <div id="clear" class="row1">
+        <button id="c" value="C" onclick="rest()">C</button>
+    </div>
+
+    <div id="percent" class="row1">
+        <button value="%" onclick="whichsymbol(this)">%</button>
+    </div>
+
+    <div id="divide" class="row1">
+        <button id="divi" value="÷" onclick="whichsymbol(this)">÷</button>
+    </div>
+
+    <div id="seven" class="row2">
+        <button value="7" onclick="whichbutton(this)">7</button>
+    </div>
+
+    <div id="eight" class="row2">
+        <button value="8" onclick="whichbutton(this)">8</button>
+    </div>
+
+    <div id="nine" class="row2">
+        <button value="9" onclick="whichbutton(this)">9</button>
+    </div>
+
+    <div id="multiply" class="row2">
+        <button id="multi" value="*" onclick="whichsymbol(this)">X</button>
+    </div>
+
+    <div id="four" class="row3">
+        <button value="4" onclick="whichbutton(this)">4</button>
+    </div>
+
+    <div id="five" class="row3">
+        <button value="5" onclick="whichbutton(this)">5</button>
+    </div>
+
+    <div id="six" class="row3">
+        <button value="6" onclick="whichbutton(this)">6</button>
+    </div>
+
+    <div id="subtract" class="row3">
+        <button id="sub" value="-" onclick="whichsymbol(this)">-</button>
+    </div>
+
+    <div id="one" class="row4">
+        <button value="1" onclick="whichbutton(this)">1</button>
+    </div>
+
+    <div id="two" class="row4">
+        <button value="2" onclick="whichbutton(this)">2</button>
+    </div>
+
+    <div id="three" class="row4">
+        <button value="3" onclick="whichbutton(this)">3</button>
+    </div>
+
+    <div id="addition" class="row4">
+        <button id="plus" value="+" onclick="whichsymbol(this)">+</button>
+    </div>
+
+    <div id="zero" class="row5">
+        <button value="0" onclick="whichbutton(this)">0</button>
+    </div>
+
+    <div id="decimal" class="row5">
+        <button value="." onclick="whichsymbol(this)">.</button>
+    </div>
+
+    <div id="equals" class="row5">
+        <button id="eq" value="=" onclick="whichsymbol(this)">=</button>
+    </div>
+
+</div>    
+
+      
+    
+</body>
+</html>

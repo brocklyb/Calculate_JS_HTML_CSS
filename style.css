@@ -1,0 +1,152 @@
+html{
+    background-color: grey;
+}
+
+
+button{
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 20%;
+    border: 2px black solid;
+}
+
+label{
+    font-size: 50px;
+    font-weight: bold;
+    background-color: lightyellow;
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 6fr;
+    align-content: center;
+    position: absolute;
+    gap: 5px;
+    
+}
+
+#clear{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1/2;
+    
+}
+
+#percent{
+    display: grid;
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#divide{
+    display: grid;
+    grid-row: 2;
+    grid-column: 4;
+}
+
+#seven{
+    display: grid;
+    grid-row: 3;
+    grid-column: 1;   
+}
+
+#eight{
+    display: grid;
+    grid-row: 3;
+    grid-column: 2;   
+}
+
+#nine{
+    display: grid;
+    grid-row: 3;
+    grid-column: 3;   
+}
+
+#multiply{
+    display: grid;
+    grid-row: 3;
+    grid-column: 4;   
+}
+
+#four{
+    display: grid;
+    grid-row: 4;
+    grid-column: 1;   
+}
+
+#five{
+    display: grid;
+    grid-row: 4;
+    grid-column: 2;   
+}
+
+#six{
+    display: grid;
+    grid-row: 4;
+    grid-column: 3;   
+}
+
+#subtract{
+    display: grid;
+    grid-row: 4;
+    grid-column: 4;   
+}
+
+#one{
+    display: grid;
+    grid-row: 5;
+    grid-column: 1;   
+}
+
+#two{
+    display: grid;
+    grid-row: 5;
+    grid-column: 2;   
+}
+
+#three{
+    display: grid;
+    grid-row: 5;
+    grid-column: 3;   
+}
+
+#addition{
+    display: grid;
+    grid-row: 5;
+    grid-column: 4;   
+}
+
+#zero{
+    display: grid;
+    grid-row: 6;
+    grid-column: 1/2;
+}
+
+#decimal{
+    display: grid;
+    grid-row: 6;
+    grid-column: 3;
+}
+
+#equals{
+    display: grid;
+    grid-row: 6;
+    grid-column: 4;
+}
+
+#c{
+    background-color: lightpink;
+}
+
+#eq{
+    background-color: lightseagreen;
+}
+
+#perc, #multi, #sub, #divi, #plus{
+    background-color: #e0bb00
+
+}
